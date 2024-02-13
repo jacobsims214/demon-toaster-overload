@@ -21,4 +21,25 @@ h1 {
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
     border-radius: 10px; /* Rounds the corners of the background */
 }
-  
+
+
+#hit-counter {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000080; /* Navy Blue */
+    color: #00FF00; /* Neon Green */
+    padding: 10px;
+    border: 2px dashed #FFD700; /* Gold */
+    position: absolute; /* Positioning relative to the nearest positioned ancestor or the viewport */
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+#hit-counter p {
+    margin: 0;
+    font-size: 20px;
+}
+
+#souls-bathed-count {
+    font-weight: bold;
+}
