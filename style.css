@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('toasterlord.webp');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Keeps things centered */
+    color: #fff; /* Adjust based on your background */
+}
+
+h1 {
+    font-family: 'Creepster', cursive; /* Use the font you chose */
+    font-size: 3em; /* Adjust the size as needed */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    border-radius: 10px; /* Rounds the corners of the background */
+}
+
